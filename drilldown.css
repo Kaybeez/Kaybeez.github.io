@@ -1,4 +1,7 @@
-  .tablesorter {
+table {
+    margin: 0 auto;
+}
+.tablesorter {
     width:95%; 
 }
 .tablesorter thead,td {
