@@ -63,7 +63,7 @@ function drilldown(myparams) {
 
     var headers = Object.keys(data[0]);
     var headers = [].concat(agg_cols).concat(cal_cols);
-    var code = "<div class=\"drilltable\" style=\"height:" + height + ";\">";
+    var code = "<div class=\"drilltable\" style=\"height:" + height + "%;\">";
     code = code + "<table class=\"tablesorter\"><head><tr>";
     headers.forEach(function(header) {
         var prefix = "";
