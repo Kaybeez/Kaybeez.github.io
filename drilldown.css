@@ -49,6 +49,8 @@ table {
 
   .drilltable {
     overflow-x: auto;
+    height: 100%;
+    margin-bottom: 10px;
   }
 
   .drill_int {
