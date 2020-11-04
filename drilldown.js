@@ -162,7 +162,7 @@ function drilldown(myparams) {
                                         code = code + "</tr>";
                                         if (agg_cols.includes(headers[5])) {
                                             var col6_uniques = fifth_rows.map(a => a[agg_cols[5]]).filter((item, i, ar) => ar.indexOf(item) === i);
-                                            col5_uniques.forEach(function(col6) {
+                                            col6_uniques.forEach(function(col6) {
                                                 sixth_rows = fifth_rows.filter(function(row) {
                                                     return row[agg_cols[5]] == col6;
                                                 });
